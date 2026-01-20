@@ -1,3 +1,8 @@
+// Import MediaPipe utilities from global scope
+const drawConnectors = window.drawConnectors;
+const drawLandmarks = window.drawLandmarks;
+const HAND_CONNECTIONS = window.HAND_CONNECTIONS;
+
 const videoElement = document.getElementById('webcam');
 const canvasElement = document.getElementById('output_canvas');
 const canvasCtx = canvasElement.getContext('2d');
